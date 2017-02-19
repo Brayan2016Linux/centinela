@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imagineup.centinela"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <!-- Permisos para la actividad principal -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+
+    <!-- Aplicacion -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Actividad de inicio -->
+        <activity
+            android:name="com.example.imagineup.centinela.Splash"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Actividades de trabajo -->
+        <activity
+            android:name="com.example.imagineup.centinela.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.RegisterActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.ControlActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.BuyControlActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.BuyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.EditBuy"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.PayControlActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.PaymentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.EditPayment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.CashAdvanceControlActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.CashAdvanceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.EditCashAdvance"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.DialogActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AlertDialog.NewTheme" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.InfoCardActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.EditProfile"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.EditCard"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.AboutTo"
+            android:label="@string/app_name"
+            android:theme="@style/AlertDialog.NewTheme" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.ReviewCard"
+            android:label="@string/app_name"
+            android:theme="@style/AlertDialog.CardReview" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.SettingsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AlertDialog.NewTheme" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.BankFeesActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AlertDialog.NewTheme" >
+        </activity>
+        <activity
+            android:name="com.example.imagineup.centinela.HelpActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AlertDialog.NewTheme" >
+        </activity>
+    </application>
+
+</manifest>

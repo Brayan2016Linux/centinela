@@ -1,0 +1,198 @@
+<resources>
+    <!-- Nombre de la aplicación-->
+    <string name="app_name">Centinela</string>
+    <string name="userID">userEmail</string>
+    <string name="userNumber">userID</string>
+    <string name="cardInfoID" translatable="false">cardName</string>
+    <string name="idPagoN" translatable="false">payID</string>
+    <string name="idCompN" translatable="false">buyID</string>
+    <string name="idAdelN" translatable="false">cashAdvID</string>
+    <string name="versionID">Versión v.0.1.6</string>
+    <string name="Company">Imagine Lab</string>
+
+
+    <!-- Strings Ventana de Login-->
+    <string name="emailText">E-mail: </string>
+    <string name="passwordText">Contraseña: </string>
+    <string name="ingresoUsuario" translatable="false">Login:</string>
+    <string name="iniciarBoton">Iniciar sesión</string>
+    <string name="nuevaCuenta">Crear una cuenta nueva</string>
+    <string name="olvidarPass">¿Olvidó su contraseña? Haz click aquí para recuperarla</string>
+
+    <!-- Strings Ventana de Registro-->
+    <string name="usuarioText2">Nombre: </string>
+    <string name="apellidoText1">Primer Apellido: </string>
+    <string name="apellidoText2">Segundo Apellido: </string>
+    <string name="identificacionU">Cédula ó Pasaporte: </string>
+    <string name="ingresoUsuario2">Cuenta Nueva:</string>
+    <string name="ingresoUsuario3">Editar perfil:</string>
+    <string name="GuardarBoton">Guardar</string>
+    <string name="CancelarBoton">Cancelar</string>
+    <string name="passwordText2">Confirmar contraseña:</string>
+    <string name="mensajecampo">Complete el campo de </string>
+    <string name="mensaje_exito">Se ha completado exitosamente el registro</string>
+
+
+    <!--Strings Mensaje Toast-->
+    <string name="mensajeInvalido">Usuario o password no corresponden</string>
+    <string name="mensajeNoImplementado">Aún no ha sido implementado</string>
+    <string name="mensajeNoExisten">El correo o usuario ya existen, imposible crear cuenta nueva</string>
+    <string name="crearCuentaNueva">No existen usuarios registrados.\nFavor crear una cuenta nueva.</string>
+    <string name="completeCamposVacios">Complete los campos vacíos</string>
+    <string name="passwordNoCoinciden">Passwords no coinciden</string>
+    <string name="operacionExitosa">Operación satisfactoriamente realizada</string>
+    <string name="completeElCampo">Complete el campo de </string>
+    <string name="bienvenida">Bienvenido a Centinela </string>
+
+    <!--String Mensaje campos vacíos-->
+    <string name="nombreUsuario">Nombre de usuario</string>
+    <string name="correoUsuario">Correo electrónico</string>
+    <string name="contrasenaUsuario">Contraseña</string>
+    <string name="contrasenaConfirma">Confirmar contraseña</string>
+
+    <!--String Menú contextual Action Bar-->
+    <string name="Edit_action">Editar perfil</string>
+    <string name="Help_action">Ayuda</string>
+    <string name="Info_action">Acerca de</string>
+    <string name="Add_action">Agregar tarjeta</string>
+    <string name="Delete_action">Eliminar todos</string>
+    <string name="Delete_allPayBuy">Eliminar todos</string>
+    <string name="Add_PayBuy">Agregar Pago, Compra o Adelanto</string>
+    <string name="RegresoMenu">Área principal</string>
+
+    <!--String Menús flotantes Tarjetas / Pago /Compras -->
+    <string name="Consultar_registro">Consultar</string>
+    <string name="Hist_Compra_registro">Historial Compras</string>
+    <string name="Hist_Pago_registro">Historial Pagos</string>
+    <string name="Hist_Adelanto_registro">Historial Adelantos</string>
+    <string name="Comision_Registro">Comisiones del Emisor</string>
+    <string name="Editar_registro">Editar</string>
+    <string name="Eliminar_registro">Eliminar</string>
+
+    <!--String de Seleccion-->
+    <string name="Selected_Item">Ha seleccionado:</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel">Cancelar</string>
+
+    <!--String de Dialog-->
+    <string name="input_dialog">Ingrese su correo:</string>
+    <string name="delete_dialog1">¡Borrará los registros!</string>
+    <string name="delete_dialog2">¿Está seguro?</string>
+
+    <!--Strings Ventana Registro de Tarjetas-->
+    <string name="infoTarjeta">Información de la tarjeta</string>
+    <string name="tarjetaID">Nombre de la tarjeta:</string>
+    <string name="emisorID">Emisor:</string>
+    <string name="saldoDisp">Saldo disponible:</string>
+    <string name="saldoDeud">Saldo deudor:</string>
+    <string name="saldoDeudCERO">Saldo deudor tasa cero:</string>
+    <string name="interesesID">Intereses (%):</string>
+    <string name="moratorioID">Moratorio (%):</string>
+    <string name="dias_corteID">Día de corte:</string>
+    <string name="dias_graciaID">Días de gracia:</string>
+
+    <!--String Excepciones Mensajes-->
+    <string name="mensajeExcepcionTipo">Tipo datos incorrecto</string>
+    <string name="action_settings">Configuración</string>
+
+    <!--String Registro Pago-->
+    <string name="pagoTitulo">Pagos:</string>
+    <string name="agregarPago">Agregar pago...</string>
+    <string name="eliminarTodoPago">Eliminar pagos</string>
+    <string name="detallePago">Detalle:</string>
+    <string name="montoPago">Monto:</string>
+    <string name="fechaPago">Fecha de Pago:</string>
+
+    <!--String Registro Compra-->
+    <string name="compraTitulo">Compras:</string>
+    <string name="agregarCompra">Agregar compra...</string>
+    <string name="eliminarTodaCompra">Eliminar compras</string>
+    <string name="detalleCompra">Detalle</string>
+    <string name="montoCompra">Monto:</string>
+    <string name="periodo_Credito">Período de crédito</string>
+    <string name="modalidad_Compra">Modalidad de la compra</string>
+    <string name="fechaCompra">Fecha de compra</string>
+
+    <!--String Adelanto Efectivo-->
+    <string name="adelantoTitulo">Adelanto de Efectivo:</string>
+    <string name="agregarAdelanto">Agregar adelanto...</string>
+    <string name="eliminarTodoAdelanto">Eliminar adelantos</string>
+    <string name="detalleAdelanto">Detalle</string>
+    <string name="montoAdelanto">Monto:</string>
+    <string name="fechaAdelanto">Fecha:</string>
+
+    <!--String Spinner Modalidad-->
+    <string name="mesesTitulo">mes/meses</string>
+    <string name="interes_CERO">Tasa cero</string>
+    <string name="interes_INT">Tasa normal</string>
+    <string name="Historial_registro">Historial</string>
+
+    <!--String periodos de crédito-->
+    <string name="periodo1">1 mes</string>
+    <string name="periodo2">2 meses</string>
+    <string name="periodo3">3 meses</string>
+    <string name="periodo4">4 meses</string>
+    <string name="periodo5">5 meses</string>
+    <string name="periodo6">6 meses</string>
+    <string name="periodo7">12 meses</string>
+    <string name="periodo8">24 meses</string>
+    <string name="periodo9">36 meses</string>
+
+    <!--String meses del año-->
+    <string name="mes01">enero</string>
+    <string name="mes02">febrero</string>
+    <string name="mes03">marzo</string>
+    <string name="mes04">abril</string>
+    <string name="mes05">mayo</string>
+    <string name="mes06">junio</string>
+    <string name="mes07">julio</string>
+    <string name="mes08">agosto</string>
+    <string name="mes09">setiembre</string>
+    <string name="mes10">octubre</string>
+    <string name="mes11">noviembre</string>
+    <string name="mes12">diciembre</string>
+
+
+    <!--Strings Comisiones bancarias-->
+    <string name="interes_Adelanto">Comisión adelanto(%)</string>
+    <string name="comision_Adelanto">Comisión adelanto (administ)</string>
+    <string name="comisionTitulo">Comisiones del emisor</string>
+    <string name="comisionAdministrativa">Administrativas:</string>
+    <string name="comisionSeguro">Seguro:</string>
+    <string name="comision_MoraUnico">Comisión por mora único</string>
+    <string name="comision_MoraPorDia">Comisiones por mora por días de atraso:</string>
+
+    <!--Strings Ayuda-->
+    <string name="ayudaTitulo">Ayuda</string>
+    <string name="dias_antesFecha">Días antes de la fecha de pago:</string>
+    <string name="configuracionTitulo">Configuraciones</string>
+    <string name="notificacionesETQ">Notificaciones</string>
+
+    <!--Strings Notificaciones-->
+    <string name="userCard">Días de pago de la tarjeta </string>
+    <string name="avisoPagoContado">Pago contado </string>
+    <string name="avisoPagoMinimo">Pago mínimo </string>
+    <string name="mensajeEnviado">¡Contraseña enviada, revise su buzón!</string>
+    <string name="mensajeNotificacion">¡Revise su buzón de mensajería!</string>
+
+    <!--String Helps-->
+    <string name="CentinelaHelp">Centinela es un sistema administración de tarjetas de crédito.</string>
+    <string name="UsuarioHelp">El usuario crea una cuenta con sus datos personales para seguridad.</string>
+    <string name="controlTitulo">Actividad de Control</string>
+    <string name="cardTitulo">Tarjeta</string>
+    <string name="ControlHelp">Aquí se almacenan las tarjetas que el usuario desea administrar con los menús contextuales de la barra.</string>
+    <string name="CardHelp">Al dar click en la tarjeta aparece un menú para manipular la información de la tarjeta.</string>
+    <string name="generalHelp">Cada submenú posee una actividad de control fácil de usar y muy intuitiva.</string>
+    <string name="settingsTitulo">Configuraciones</string>
+    <string name="settingsHelp">Aquí puede elegir el número de días antes de pago o si desea recibir notificaciones.</string>
+
+    <!--String BalanceInfo-->
+    <string name="infoBalance">Información Balance al: </string>
+    <string name="comprasTasa0">Total compras 0%:</string>
+    <string name="comprasTasaINT">Total compras i%:</string>
+    <string name="interesesAprox">Total intereses aproximados:</string>
+    <string name="deudaTotal">Total deuda:</string>
+    <string name="totalPagos">Total Pagos:</string>
+    <string name="totalSaldoDeudor">Saldo Deudor:</string>
+    <string name="MontoMinimoAproximado">Pago mínimo aproximado:</string>
+</resources>

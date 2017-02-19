@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85767676"
+    tools:context=".BankFeesActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/configuracionTitulo"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/etiquetaComisionTitulo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:background="#9d404040"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/NotificacionesCheckbox"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notificacionesETQ"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp" />
+
+            <SurfaceView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                    <Space
+                        android:layout_width="10dp"
+                        android:layout_height="10dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dias_antesFecha"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:id="@+id/spinner_diasAntePago"
+                        />
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp" />
+
+
+            <SurfaceView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CancelarBoton"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:id="@+id/button_CNL"/>
+
+                <Space
+                    android:layout_width="75dp"
+                    android:layout_height="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/GuardarBoton"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:id="@+id/buttonOK"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

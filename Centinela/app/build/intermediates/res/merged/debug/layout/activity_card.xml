@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85767676"
+    tools:context=".InfoCardActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/infoTarjeta"
+                android:textSize="25dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/etiquetaIngreso"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="43dp"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:background="#9d404040"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarjetaID"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffffff"
+                    android:id="@+id/tarjetaIDN"
+                    android:inputType="textPersonName"
+                    />
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emisorID"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffffff"
+                    android:id="@+id/emisorIDN"
+                    android:inputType="textPersonName"/>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/saldoDisp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffffff"
+                    android:id="@+id/dispIDN"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789.,-"/>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/saldoDeud"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffffff"
+                    android:id="@+id/deudorINT_IDN"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789.,-"/>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/saldoDeudCERO"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffffff"
+                    android:id="@+id/deudorCERO_IDN"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789.,-"/>
+
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/interesesID"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <Space
+                        android:layout_width="85dp"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/moratorioID"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <Spinner
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:id="@+id/spinnerINT"/>
+
+                    <Space
+                        android:layout_width="90dp"
+                        android:layout_height="10dp" />
+
+                    <Spinner
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:textColor="#000000"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:id="@+id/spinnerMOR"/>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dias_corteID"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <Space
+                        android:layout_width="85dp"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dias_graciaID"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <Spinner
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:id="@+id/spinnerDC"/>
+
+                    <Space
+                        android:layout_width="90dp"
+                        android:layout_height="10dp" />
+
+                    <Spinner
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:id="@+id/spinnerDG"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CancelarBoton"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:id="@+id/button_CNL"/>
+
+                <Space
+                    android:layout_width="85dp"
+                    android:layout_height="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/GuardarBoton"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:id="@+id/buttonOK"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

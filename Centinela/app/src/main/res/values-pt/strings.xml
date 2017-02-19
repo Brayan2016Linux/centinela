@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Centinela</string>
+    <string name="CancelarBoton">Cancelar</string>
+    <string name="GuardarBoton">Salvar</string>
+    <string name="bienvenida">Bem-vindo a Centinela</string>
+    <string name="completeCamposVacios">Preenche os espaços vázios</string>
+    <string name="completeElCampo">Preenche o espaço de</string>
+    <string name="contrasenaConfirma">Confirme sua senha</string>
+    <string name="contrasenaUsuario">Senha</string>
+    <string name="correoUsuario">E-mail</string>
+    <string name="crearCuentaNueva">O usuário nao foi cadastrado. \nFavor criar uma conta de usuário</string>
+    <string name="emailText">E-mail</string>
+    <string name="ingresoUsuario2">Usuário Novo:</string>
+    <string name="iniciarBoton">Iniciar sessao</string>
+    <string name="mensajeInvalido">Usuario ou senha invalidos</string>
+    <string name="mensajeNoExisten">O e-mail ou usuario ja foram cadastrados, impossível criar uma nova conta</string>
+    <string name="mensajeNoImplementado">Ainda nao foi implementado!</string>
+    <string name="mensaje_exito">O cadastro foi finalizado com sucesso</string>
+    <string name="mensajecampo">Preenche o espaço de</string>
+    <string name="nombreUsuario">Nome do usuario</string>
+    <string name="nuevaCuenta">Criar nova conta</string>
+    <string name="olvidarPass">Esqueceu sua senha? favor clicar aqui para encaminhá-la ao e-mail registrado.</string>
+    <string name="operacionExitosa">Operaçao foi finalizada com sucesso!</string>
+    <string name="passwordText">Senha:</string>
+    <string name="passwordText2">Confirmar sua senha:</string>
+    <string name="usuarioText2">Nome do usuario:</string>
+    <string name="passwordNoCoinciden">A senha está incorreta</string>
+    <string name="userID">userEmail</string>
+    <string name="userNumber">userID</string>
+</resources>

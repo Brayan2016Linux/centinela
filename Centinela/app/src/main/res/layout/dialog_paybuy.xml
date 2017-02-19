@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@color/material_grey_100"
+    android:background="#f0f0f0">
+
+
+    <Space
+        android:layout_width="5dp"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:textSize="17dp"
+        android:text="@string/Editar_registro"
+        android:id="@+id/Edit_contextual"
+        android:clickable="true"
+        android:layout_gravity="center_vertical"/>
+
+    <SurfaceView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+
+    <Space
+        android:layout_width="5dp"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:textSize="17dp"
+        android:text="@string/Eliminar_registro"
+        android:id="@+id/Delete_contextual"
+        android:clickable="true"
+        android:layout_gravity="center_vertical"/>
+
+    <SurfaceView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+</LinearLayout>

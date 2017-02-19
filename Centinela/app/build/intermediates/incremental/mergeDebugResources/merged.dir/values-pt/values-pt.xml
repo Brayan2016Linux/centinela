@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CancelarBoton">Cancelar</string>
+    <string name="GuardarBoton">Salvar</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um app"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="app_name">Centinela</string>
+    <string name="bienvenida">Bem-vindo a Centinela</string>
+    <string name="completeCamposVacios">Preenche os espaços vázios</string>
+    <string name="completeElCampo">Preenche o espaço de</string>
+    <string name="contrasenaConfirma">Confirme sua senha</string>
+    <string name="contrasenaUsuario">Senha</string>
+    <string name="correoUsuario">E-mail</string>
+    <string name="crearCuentaNueva">O usuário nao foi cadastrado. \nFavor criar uma conta de usuário</string>
+    <string name="emailText">E-mail</string>
+    <string name="ingresoUsuario2">Usuário Novo:</string>
+    <string name="iniciarBoton">Iniciar sessao</string>
+    <string name="mensajeInvalido">Usuario ou senha invalidos</string>
+    <string name="mensajeNoExisten">O e-mail ou usuario ja foram cadastrados, impossível criar uma nova conta</string>
+    <string name="mensajeNoImplementado">Ainda nao foi implementado!</string>
+    <string name="mensaje_exito">O cadastro foi finalizado com sucesso</string>
+    <string name="mensajecampo">Preenche o espaço de</string>
+    <string name="nombreUsuario">Nome do usuario</string>
+    <string name="nuevaCuenta">Criar nova conta</string>
+    <string name="olvidarPass">Esqueceu sua senha? favor clicar aqui para encaminhá-la ao e-mail registrado.</string>
+    <string name="operacionExitosa">Operaçao foi finalizada com sucesso!</string>
+    <string name="passwordNoCoinciden">A senha está incorreta</string>
+    <string name="passwordText">Senha:</string>
+    <string name="passwordText2">Confirmar sua senha:</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="userID">userEmail</string>
+    <string name="userNumber">userID</string>
+    <string name="usuarioText2">Nome do usuario:</string>
+</resources>

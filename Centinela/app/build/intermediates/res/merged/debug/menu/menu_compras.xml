@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BuyControlActivity">
+
+    <!-- Icons del sistema -->
+    <item android:id="@+id/delete_all"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/Delete_allPayBuy"
+        android:orderInCategory="0"
+        app:showAsAction="always" />
+    <item android:id="@+id/add_all"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/Add_PayBuy"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+    <item android:id="@+id/close_all"
+        android:icon="@android:drawable/ic_media_rew"
+        android:title="@string/RegresoMenu"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+</menu>

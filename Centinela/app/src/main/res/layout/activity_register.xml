@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ripple_material_light">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ingresoUsuario2"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/etiquetaIngreso"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="43dp"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:background="#9d404040"/>
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/usuarioText2"
+                    android:id="@+id/etiquetaNombre"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center" />
+
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="35dp"
+                    android:inputType="textPersonName"
+                    android:ems="15"
+                    android:id="@+id/Name_Input"
+                    android:background="#ffffff"
+                    android:editable="true"
+                    android:textIsSelectable="false" />
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/apellidoText1"
+                    android:id="@+id/etiquetaApellido1"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center" />
+
+
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="35dp"
+                    android:inputType="textPersonName"
+                    android:ems="15"
+                    android:id="@+id/LastName1_Input"
+                    android:background="#ffffff"
+                    android:editable="true"
+                    android:textIsSelectable="false" />
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/apellidoText2"
+                    android:id="@+id/etiquetaApellido2"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"/>
+
+
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="35dp"
+                    android:inputType="textPersonName"
+                    android:ems="15"
+                    android:id="@+id/LastName2_Input"
+                    android:background="#ffffff"
+                    android:editable="true"
+                    android:textIsSelectable="false" />
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/identificacionU"
+                    android:id="@+id/etiquetaUsuario"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center" />
+
+
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="35dp"
+                    android:inputType="textPersonName"
+                    android:ems="15"
+                    android:id="@+id/IDCARD_Input"
+                    android:background="#ffffff"
+                    android:editable="true"
+                    android:textIsSelectable="false" />
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:text="@string/emailText"
+                    android:id="@+id/etiquetaCorreo"
+                    android:layout_centerVertical="true" />
+
+
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="35dp"
+                    android:inputType="textEmailAddress"
+                    android:ems="15"
+                    android:id="@+id/Email_Input"
+                    android:background="#ffffff"
+                    android:editable="true"
+                    android:textIsSelectable="false" />
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:text="@string/passwordText"
+                    android:id="@+id/etiqPassword1" />
+
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="35dp"
+                    android:inputType="textPassword"
+                    android:ems="15"
+                    android:id="@+id/Password_Input1"
+                    android:background="#ffffff"
+                    android:textColor="@color/ripple_material_light"
+                    android:autoText="false"
+                    android:editable="true" />
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:text="@string/passwordText2"
+                    android:id="@+id/etiquetaPassword" />
+
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="35dp"
+                    android:inputType="textPassword"
+                    android:ems="15"
+                    android:id="@+id/Password_Input2"
+                    android:background="#ffffff"
+                    android:textColor="@color/ripple_material_light"
+                    android:autoText="false"
+                    android:editable="true"
+                    android:clickable="true" />
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="325dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/GuardarBoton"
+                        android:textColor="@android:color/white"
+                        android:textAllCaps="false"
+                        android:id="@+id/botonGuardar"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:background="#010101"
+                        android:enabled="true" />
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <Button
+                        android:layout_width="325dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CancelarBoton"
+                        android:id="@+id/botonCancelar"
+                        android:textAllCaps="false"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:background="#010101"
+                        android:clickable="true"
+                        android:enabled="true" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

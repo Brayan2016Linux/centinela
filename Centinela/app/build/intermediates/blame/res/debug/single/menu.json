@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/res/merged/debug/menu/menu_control.xml",
+        "source": "/home/bradrd/AndroidStudioProjects/Centinela/app/src/main/res/menu/menu_control.xml"
+    },
+    {
+        "merged": "/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/res/merged/debug/menu/menu_adelanto.xml",
+        "source": "/home/bradrd/AndroidStudioProjects/Centinela/app/src/main/res/menu/menu_adelanto.xml"
+    },
+    {
+        "merged": "/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/res/merged/debug/menu/menu_compras.xml",
+        "source": "/home/bradrd/AndroidStudioProjects/Centinela/app/src/main/res/menu/menu_compras.xml"
+    },
+    {
+        "merged": "/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/res/merged/debug/menu/menu_pagos.xml",
+        "source": "/home/bradrd/AndroidStudioProjects/Centinela/app/src/main/res/menu/menu_pagos.xml"
+    }
+]

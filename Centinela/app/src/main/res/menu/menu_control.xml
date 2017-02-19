@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ControlActivity">
+
+    <!-- Icons del sistema -->
+    <item android:id="@+id/delete_icon"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/Delete_action"
+        android:orderInCategory="0"
+        app:showAsAction="always" />
+    <item android:id="@+id/add_icon"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/Add_action"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+    <!-- Menu contextual del sistema -->
+    <item android:id="@+id/action_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/Help_action"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/Edit_action"
+        android:orderInCategory="3"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_info"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/Info_action"
+        android:orderInCategory="4"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_set"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>

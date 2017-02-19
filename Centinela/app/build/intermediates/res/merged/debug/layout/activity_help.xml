@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b3b3b3">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ayudaTitulo"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/etiquetaComisionTitulo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:background="#9d404040"/>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:id="@+id/NameApp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CentinelaHelp"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/UsuarioHelp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/controlTitulo"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ControlHelp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cardTitulo"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CardHelp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Editar_registro"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Consultar_registro"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/compraTitulo"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pagoTitulo"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/comisionTitulo"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/adelantoTitulo"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Eliminar_registro"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/generalHelp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settingsTitulo"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settingsHelp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ok"
+                    android:id="@+id/aboutOK"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

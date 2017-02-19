@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_5a4d06c2a7359ec625c578c1efa5463f1714c8ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_069af1d9a1507c410ad9555dfba8b862405101cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3aaf752111f57343de2212276d2c6cd707b8686c">
+        <dex dex="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/pre-dexed/debug/instant-run_2d8454b7b7623ba26ab1c2f3af3c093e28457061.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/bradrd/Desktop/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_1a4b1a0ebe8f37b231238c8b0df87a15d5663c8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_e7e6a9e9ae38510e676fdef7e63ff2258c57d48b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5cb3b5c3e29db024377215e9837962c88e00263c">
+        <dex dex="/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_27c0ee0cac9f0fc081caf58c619b072279aad7c3.jar" />
+    </item>
+
+</items>

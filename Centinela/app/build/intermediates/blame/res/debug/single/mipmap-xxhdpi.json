@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/bradrd/AndroidStudioProjects/Centinela/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/bradrd/AndroidStudioProjects/Centinela/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher2.png",
+        "source": "/home/bradrd/AndroidStudioProjects/Centinela/app/src/main/res/mipmap-xxhdpi/ic_launcher2.png"
+    }
+]
